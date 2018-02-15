@@ -32,7 +32,7 @@ Version: 2/15/18
     * `git branch -a` to see branches
 6. Pull from Caitlin's master branch into my tutorial branch.
     * `git pull bannanc master`
-7. Create conda environment from Caitlin's yml file
+7. Create conda environment from Caitlin's yml file.
     * From zip file on [Mobley lab Slack](https://mobleylab.slack.com/files/U1AAMLE31/F9A6PMS94/github_tutorial.zip)
     * `conda env create -n tutorial -f tutorial.yml`
     * `source activate tutorial`
@@ -73,11 +73,11 @@ Version: 2/15/18
     * When you customize this for your own project, add the python packages that your project depends on.  
       Here, it's just numpy and pytest.
     * Also not recommended to start from scratch here.
-17. Go to Travis online to check out test status.
+17. Go to [Travis online](https://travis-ci.org/) to check out test status.
 18. Add Travis badge to top of README. 
     * Click on badge on top of Travis website to get the build status image.
     * `[![Build Status](https://travis-ci.org/vtlim/shapes.svg?branch=master)](https://travis-ci.org/vtlim/shapes)`
-19. Travis file already had commands for code coverage so can go to [codecov.io](codecov.io) online to check that out.
+19. Travis file already had commands for code coverage so can go to [codecov.io](https://codecov.io/) online to check that out.
     * Have AT LEAST 80% of your code covered.
 20. Add badge for this too!
     * Add this next to the Travis badge, not on a new line.
