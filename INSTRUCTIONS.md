@@ -1,4 +1,11 @@
-# Tutorial with Caitlin, 2/15/18
+# Tutorial with Caitlin
+Version: 2/15/18
+
+## Concepts
+* Starting a new Github repository
+* Travis tests
+* Code coverage
+* Documentation (not covered on 2/15/18)
 
 ## Terms
 * origin = my fork
@@ -39,8 +46,8 @@
 9. Install shapes into conda environment.
     * `pip install -e .`
     * Do this in the same directory as the `setup.py` file.
-    * The -e means you can make changes to the python code and it will be incorporated.  
-      More details [here](http://codumentary.blogspot.com/2014/11/python-tip-of-year-pip-install-editable.html)
+    * The `-e` means you can make changes to the python code and it will be incorporated.  
+      More details [here](http://codumentary.blogspot.com/2014/11/python-tip-of-year-pip-install-editable.html).
 10. Looking at tests via pytest module.
     * pytest automatically runs if function has `test_` at beginning or `_test` at end
     * `approx` handles floating point differences
@@ -71,7 +78,7 @@
     * Click on badge on top of Travis website to get the build status image.
     * `[![Build Status](https://travis-ci.org/vtlim/shapes.svg?branch=master)](https://travis-ci.org/vtlim/shapes)`
 19. Travis file already had commands for code coverage so can go to [codecov.io](codecov.io) online to check that out.
-    * Have AT LEAST 80% of your code covered
+    * Have AT LEAST 80% of your code covered.
 20. Add badge for this too!
     * Add this next to the Travis badge, not on a new line.
     * `[![codecov](https://codecov.io/gh/vtlim/shapes/branch/master/graph/badge.svg)](https://codecov.io/gh/vtlim/shapes)`
