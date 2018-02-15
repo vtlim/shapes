@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/vtlim/shapes.svg?branch=master)](https://travis-ci.org/vtlim/shapes)
+[![Build Status](https://travis-ci.org/vtlim/shapes.svg?branch=master)](https://travis-ci.org/vtlim/shapes) [![codecov](https://codecov.io/gh/vtlim/shapes/branch/master/graph/badge.svg)](https://codecov.io/gh/vtlim/shapes)
 
 # Shapes - an example repository
 
