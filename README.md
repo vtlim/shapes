@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vtlim/shapes.svg?branch=master)]
+
 # Shapes - an example repository
 
 This repository will provide methods for calculating the area and parimeter of certain shapes, but the main use
